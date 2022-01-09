@@ -1,0 +1,169 @@
+body {
+    animation: entry 2s;
+    background-color: rgb(44, 44, 44);
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(70, 67, 69);
+    animation: test 2s;
+    border-radius: 13px;
+    height: 60px;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 500px;
+    margin-left: 30px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav.nav li {
+    font-size: 35px;
+    margin-left: 40px;
+    color: rgb(211, 12, 168);
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    animation: rbg 1500s infinite ease;
+}
+
+img.img {
+    margin-left: 10px;
+    border-radius: 16px;
+    width: 50px;
+	height: 50px;
+}
+
+a.a:hover {
+    padding: 6px 0px;
+    border-radius: 10px;
+    background: rgb(80, 80, 80);
+}
+
+.contenant img{
+    height: 800px;
+    width: 30%;
+    opacity: 60%;
+}
+
+.contenant {
+    left: -40%;
+    position: relative;
+    text-align: center;
+}
+
+.texte {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin-top: -20px;
+    transform: rotateZ(-2deg);
+    margin-left: 200px;
+    font-size: 40px;
+    color: rgb(26, 0, 175) 
+}
+
+.about.div.text {
+    color: blue;
+    padding: 1000px 1000px;
+}
+
+img.bot {
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 27.8em;
+}
+
+img.bot:hover {
+    width:27em;
+    opacity: 70%;
+}
+
+img.exploit {
+    width: 51em;
+    margin-left: 350px;
+    border-radius: 20px;
+    margin-top: -550px;
+}
+
+img.exploit:hover {
+    width:50em;
+    opacity: 70%;
+}
+
+a.mail {
+    margin-left: 200px;
+    font-size: 40px;
+}
+
+a.maile {
+    margin-left: 244px;
+    font-size: 40px;
+}
+
+.copyright {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.copyrightc {
+    margin-left: -244px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.copyrightp {
+    margin-top: 125px;
+    font-size: 20px;
+}
+
+@keyframes rbg {
+    0% {
+        color: rgb(26, 0, 175);
+    }
+
+    33% {
+        color: rgb(29, 0, 146);
+    }
+
+    66% {
+        color: rgb(0, 3, 199);
+    }
+
+    99% {
+        color: rgb(19, 5, 102);
+    }
+}
+
+@keyframes entry {
+    0% {
+        margin-top: -1000px;
+    }
+/* 
+    100% {
+        margin-top: ;
+    } */
+}
+
+@keyframes reverseentry {
+    0% {
+        margin-top: 1000px;
+    }
+/* 
+    100% {
+        margin-top: ;
+    } */
+}
